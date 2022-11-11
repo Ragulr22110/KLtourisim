@@ -1,0 +1,100 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+.collapse.navbar-collapse {
+  align-items: flex-end;
+  flex-direction: column-reverse;
+}
+
+
+.collapse.navbar-collapse {
+  align-items: flex-end;
+  flex-direction: column-reverse;
+}
+
+
+.navbar- {
+  text-align: right;
+}
+
+.collapse.navbar-collapse {
+  align-items: flex-end;
+  flex-direction: column-reverse;
+}
+
+/* login form css */
+.formContainer {
+    max-width:320px;
+    box-shadow : 4px 8px 16px #d7d7d7;
+    margin:0 auto;
+    padding:20px;
+    border-radius:0px 0px 4px 4px;
+  }
+  input {
+    box-shadow:none !important;
+    outline:none;
+  }
+  #btnHolder {
+    margin:0px -20px -20px -20px;
+  }
+  #btnHolder .btn {
+    border-radius:0px 0px 4px 4px !important;
+    height:60px;
+  }
+  @media screen and (max-width:766px){
+    .centerOnMobile {
+      margin : 20vh auto
+    }
+  }
+  @media screen and (min-width:767px){
+    #mainBgn {
+      background : url(images/bgimages/pexels-godson-bright-962464.jpg) no-repeat;
+      background-size:cover;
+      background-position:center;
+      height:80vh;
+      width:100%;
+      margin-left: 80px;
+    }
+    #mainContainer {
+      box-shadow : 2px 4px 12px rgba(0,0,0,0.4);
+      height:100vh;
+      margin: 6vh 20px;
+    }
+  }
+
+/* signup form */
+
+.formContainer {
+    box-shadow : 4px 8px 16px #d7d7d7;
+    margin:15vh auto;
+    padding:20px;
+    border-radius:0px 0px 4px 4px;
+  }
+  input {
+    box-shadow:none !important;
+    outline:none;
+  }
+  #formHeading {
+    background:#6391cd;
+    margin:-20px -20px 40px -20px;
+    border-radius:4px 4px 0px 0px
+  }
+  .loginWithIcon {
+    font-size:14px;
+    height:32px;
+    width:32px;
+    background:#6391cd;
+    margin:8px;
+    line-height:32px;
+    display:inline-block;
+    border-radius:32px;
+    text-align:center;
+    color:#fff
+  }
+  #loginWithPanel {
+    background:#d8e8fd;
+    margin:auto -20px;
+  }
